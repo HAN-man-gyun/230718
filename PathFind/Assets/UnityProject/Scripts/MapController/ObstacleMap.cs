@@ -48,7 +48,7 @@ public class ObstacleMap : TileMapController
                     foundTile = searchTerrain;
                     break;
                 }
-                else { };
+                else { }
             }
 
             if(foundTile != null || foundTile != default) { break; }
@@ -94,6 +94,7 @@ public class ObstacleMap : TileMapController
             tempChangeTile.SetLocalScale(passableTerrains[i].transform.localScale);
             tempChangeTile.SetLocalPos(passableTerrains[i].transform.localPosition);
 
+            //출발지와 목적지를 캐싱한다.
             castleObjs[i] = tempChangeTile;
             Add_Obstacle(tempChangeTile);
 

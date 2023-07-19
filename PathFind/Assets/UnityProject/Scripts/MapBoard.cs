@@ -89,7 +89,7 @@ public class MapBoard : MonoBehaviour
     //! 두 지형 사이의 타일 거리를 리턴하는 함수
     public Vector2Int GetDistance2D(GameObject targetTerrainObj, GameObject destTerrainObj)
     {
-        Vector2 localDistance = destTerrainObj.transform.localPosition - targetTerrainObj.transform.position;
+        Vector2 localDistance = destTerrainObj.transform.localPosition - targetTerrainObj.transform.localPosition;
 
         Vector2Int distance2D = Vector2Int.zero;
         distance2D.x = Mathf.RoundToInt(localDistance.x/ MapCellGap.x);
