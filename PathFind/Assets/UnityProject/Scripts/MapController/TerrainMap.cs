@@ -90,11 +90,14 @@ public class TerrainMap : TileMapController
                     terrainType = TerrainType.NONE;
                     break;
             }// switch 지형별로 다른 설정을 한다.
+            tempTerrain.SetupTerrrain(mapController, terrainType, loopCnt);
+
+            tempTerrain.transform.SetAsFirstSibling();
+            allTerrains.Add(tempTerrain);
+            loopCnt += 1;
         }
         //TODO: tempTerrain Setup함수 필요함.
-        tempTerrain.transform.SetAsFirstSibling();
-        allTerrains.Add(tempTerrain);
-        loopCnt += 1;
+       
         
     }
 

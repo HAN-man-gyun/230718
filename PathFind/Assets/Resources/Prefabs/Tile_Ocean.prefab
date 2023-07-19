@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 859022992053012876, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_Name
-      value: Tile_Ocean Variant
+      value: Tile_Ocean
       objectReference: {fileID: 0}
     - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_Pivot.x
@@ -48,6 +48,18 @@ PrefabInstance:
       value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -77,11 +89,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -8.100004
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.9000002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2585485422862817148, guid: 03cb3365b822a4441b7b93fa939904c8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

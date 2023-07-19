@@ -12,7 +12,7 @@ public class TerrainController : MonoBehaviour
 
     public bool IsPassable {  get; private set; } = false;
     public int TileIdx1D { get; private set; } = -1;
-    public Vector2 TileIdx2D { get; private set; } = default;
+    public Vector2Int TileIdx2D { get; private set; } = default;
 
     #region 길찾기 알고리즘을 위한 변수
     private SpriteRenderer frontRenderer = default;
